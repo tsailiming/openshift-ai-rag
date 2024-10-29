@@ -51,7 +51,6 @@ milvus-minio-76f9d647d5-4vw99        1/1     Running   0              6m24s
 milvus-standalone-5d5b68d9bb-f952j   1/1     Running   1 (104s ago)   6m24s
 ````
 
-
 ## Install the app
 
 ### Creaate a new project

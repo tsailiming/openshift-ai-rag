@@ -1,7 +1,7 @@
 
 # Introduction
 
-This repository contains examples for Milvus and vLLM n OpenShift AI.
+This repository contains examples for Milvus, vLLM and OpenShift AI using the RAG pattern.
 
 ## Important Disclaimer
 
@@ -75,7 +75,7 @@ Observe the build config logs:
 oc logs -f buildconfig/streamlit-app
 ```
 
-If necessary set the environment variables:
+If necessary set the environment variables to point to the correct endpoints:
 
 ``` bash
 oc set env deploy/streamlit-app VLLM_ENDPOINT=https://granite-demo.apps.multus-test.sandbox323.opentlc.com/v1
